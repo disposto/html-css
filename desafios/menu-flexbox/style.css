@@ -62,3 +62,18 @@ main {
     border-radius: 7px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
 }
+
+@media screen and (max-width: 570px) {
+
+    header, header > nav {
+        flex-flow: column nowrap;
+    }
+
+    header > h1 {
+        flex-basis: 50px;
+    }
+
+    header > nav > a {
+        width: 90vw;
+    }
+}
